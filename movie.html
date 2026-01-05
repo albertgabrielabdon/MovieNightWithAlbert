@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Night Login</title>
+    <link rel="stylesheet" href="styles_main.css">
+</head>
+<body>
+    <div>
+        <section>
+            <div class="main-container">
+                <h1>Movie Night with Albert</h1>
+                <div id="animatedText">What movie should we watch?</div>
+                <div class="password-wrapper">
+                    <input type="password" id="passwordInput" placeholder="Enter password">
+                    <img id="togglePasswordImg" src="show.png" alt="Show Password" onclick="togglePassword()" style="cursor:pointer; height:40px; margin-bottom:15px;">
+                </div>
+                
+                <button onclick="checkPassword()">Enter</button>
+                <div class="error" id="errorMsg"></div>
+            </div>
+        </section>
+        <section>
+        </section>
+    </div>
+
+    <script src="animation1.js"></script>
+</body>
+</html>
