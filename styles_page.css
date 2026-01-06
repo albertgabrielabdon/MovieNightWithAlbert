@@ -210,4 +210,19 @@ p {
         border-radius: 6px;
         box-shadow: 0 0 14px #e50914;
     }
+
+    .p2-main-container {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        align-items: flex-start; 
+    }
+
+    .movie-details {
+        width: 100%;
+        gap: 15px;
+    }    
+    
 }
