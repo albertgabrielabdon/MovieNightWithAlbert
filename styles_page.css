@@ -137,3 +137,77 @@ p {
     height: 100%;
     border: none;
 }
+
+
+   @media (max-width: 900px) {
+
+    body {
+        margin: 0;
+        padding: 20px;
+        height: auto;
+        justify-content: flex-start;
+    }
+
+    .p2-main-container {
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .movie-title h1 {
+        font-size: 2.4rem;
+    }
+
+    .movie-title h2 {
+        font-size: 1.2rem;
+    }
+
+    .video-wrapper {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .movie-details {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about p,
+    .info p {
+        max-width: 100%;
+    }
+
+    .info {
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .movie-title h1 {
+        font-size: 2rem;
+    }
+
+    .movie-title h2 {
+        font-size: 1.05rem;
+    }
+
+    p {
+        font-size: 1.05rem;
+        line-height: 1.5;
+    }
+
+    .info p {
+        line-height: 1.2;
+        margin-top: 6px;
+    }
+
+    .video-wrapper {
+        border-radius: 6px;
+        box-shadow: 0 0 14px #e50914;
+    }
+}
